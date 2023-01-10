@@ -28,8 +28,8 @@ cookies = {'wp_id':'120acbd0-70d2-4f60-9f6a-70f579fa6cbe',
 baseurl = 'https://www.wattpad.com'
 #url = 'https://www.wattpad.com/story/164450444-democracinha-ciro-x-haddad'
 
-url = input('-> url do wattpad (url da historia toda e nao de um capitulo): ')
-fanfic_title = input('\n -> titulo da historia para salvar: ').strip()
+url = input('-> url do wattpad (url da historia toda e nao de um capitulo):https://www.wattpad.com/story/229634756?utm_source=android&utm_medium=link&utm_content=story_info&wp_page=story_details_button&wp_uname=ReskiAmelia272&wp_originator=Se6WzqfNotvKZzYkjmRudK08aCWX7qoeLf%2BTa7IYOtyca6CKpAEvbpVE5oUnVVP9cUy2oR2Eq6lEc%2FktHpXSGuan66IdwKJlXoswPSar4miIpx%2BgHrNehx%2F2PR3HbrTL ')
+fanfic_title = input('\n -> titulo da historia para salvar: The Bringer of Destruction').strip()
 
 if url=='' or fanfic_title=='':
 	exit(3)
