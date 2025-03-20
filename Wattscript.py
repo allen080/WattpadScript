@@ -5,10 +5,10 @@ def chaplist(html_s):
 	for i in range(len(html_s)):
 		if 'Get notified when' in html_s[i]:
 			break
-		elif 'class="part__label"' in html_s[i]:
-			capName = html_s[i+1].split('<')[0]
-			capUrl = html_s[i-1].split('"')[1]
-			caps[capName] = 'https://www.wattpad.com'+capUrl
+		elif 'new-part-icon' in html_s[i]:
+			capName = html_s[i+3].split('<')[0]
+			capUrl = html_s[i-3].split('"')[1]
+			caps[capName] = capUrl
 
 	if caps=={}:
 		return False
